@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Hackathon Drawing App</title>
+</head>
+<body>
+    <h3>Mintbean Hackathon Drawing App</h3>
+
+    <canvas id="maincanvas" width="500" height="500">If this does not render, you need to use a newer browser.</canvas>
+
+    <label for="colorselect">Pen Color</label>
+    <select name="colorselect" id="colorselect" onchange="selectColor">
+        <option value="black">Choose your color</option>
+        <option value="black">Black</option>
+        <option value="red">Red</option>
+        <option value="orange">Orange</option>
+        <option value="yellow">Yellow</option>
+        <option value="green">Green</option>
+        <option value="blue">Blue</option>
+        <option value="purple">Purple</option>
+        <option value="grey">Grey</option>
+    </select>
+
+</body>
+<script src="index.js"></script>
+</html>
